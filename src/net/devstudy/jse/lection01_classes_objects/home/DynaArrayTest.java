@@ -7,10 +7,10 @@ import java.util.Arrays;
  * @author devstudy
  * @see http://devstudy.net
  */
-public class LinkedListTest {
+public class DynaArrayTest {
 
 	public static void main(String[] args) {
-		LinkedList list = new LinkedList();
+		DynaArray list = new DynaArray();
 
 		for (int i = 0; i < 5; i++) {
 			list.add(i);
@@ -29,15 +29,5 @@ public class LinkedListTest {
 		System.out.println(Arrays.toString(list.toArray()));
 		list.remove(2);
 		System.out.println(Arrays.toString(list.toArray()));
-		
-		list.remove(0);
-		list.remove(0);
-		System.out.println(Arrays.toString(list.toArray()));
-		
-		list.remove(0);
-		list.remove(0);
-		System.out.println(Arrays.toString(list.toArray()));
-
 	}
-
 }

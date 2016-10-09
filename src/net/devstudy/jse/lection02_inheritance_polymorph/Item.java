@@ -1,4 +1,4 @@
-package net.devstudy.jse.lection01_classes_objects.home;
+package net.devstudy.jse.lection02_inheritance_polymorph;
 
 /**
  * 

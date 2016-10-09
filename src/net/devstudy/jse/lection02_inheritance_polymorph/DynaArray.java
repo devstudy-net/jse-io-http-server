@@ -1,20 +1,20 @@
-package net.devstudy.jse.lection01_classes_objects;
+package net.devstudy.jse.lection02_inheritance_polymorph;
 
 import java.util.Arrays;
 
 /**
- *
+ * 
  * @author devstudy
  * @see http://devstudy.net
  */
-public class DynaArray {
+public class DynaArray extends DataSet{
 	private int[] array;
-	private int size;
-	
+
 	public DynaArray() {
 		array = new int[10];
 	}
 
+	@Override
 	public void add(int element) {
 		if (size == array.length) {
 			int[] temp = array;
@@ -25,20 +25,36 @@ public class DynaArray {
 		}
 		array[size++] = element;
 	}
+	
+	@Override
+	public int remove(int index) {
+		if (index < size) {
+			int value = array[index];
+			for (int i = index; i < size - 1; i++) {
+				array[i] = array[i + 1];
+			}
+			array[--size] = 0;
+			return value;
+		}
+		return 0;
+	}
 
+	@Override
 	public int get(int index) {
-		return array[index];
+		if(index < size) {
+			return array[index];
+		} else {
+			return 0;
+		}
 	}
-
-	public int size() {
-		return size;
-	}
-
+	
+	@Override
 	public void clear() {
-		size = 0;
+		super.clear();
 		array = new int[10];
 	}
-
+	
+	@Override
 	public int[] toArray() {
 		return Arrays.copyOf(array, size);
 	}

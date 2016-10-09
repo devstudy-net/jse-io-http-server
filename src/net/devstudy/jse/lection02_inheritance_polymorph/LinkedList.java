@@ -1,15 +1,15 @@
-package net.devstudy.jse.lection01_classes_objects.home;
+package net.devstudy.jse.lection02_inheritance_polymorph;
 
 /**
  * 
  * @author devstudy
  * @see http://devstudy.net
  */
-public class LinkedList extends Object {
+public class LinkedList extends DataSet{
 	private Item first;
 	private Item last;
-	private int size;
 
+	@Override
 	public void add(int element) {
 		Item item = new Item(element);
 		if (size == 0) {
@@ -22,6 +22,7 @@ public class LinkedList extends Object {
 		size++;
 	}
 
+	@Override
 	public int get(int index) {
 		Item current = findItem(index);
 		return current != null ? current.getValue() : 0;
@@ -41,6 +42,7 @@ public class LinkedList extends Object {
 		return null;
 	}
 
+	@Override
 	public int remove(int index) {
 		Item current = findItem(index);
 		return current != null ? removeCurrent(current) : 0;
@@ -76,15 +78,13 @@ public class LinkedList extends Object {
 		}
 	}
 
-	public final int size() {
-		return size;
-	}
-
+	@Override
 	public void clear() {
-		size = 0;
+		super.clear();
 		first = last = null;
 	}
 
+	@Override
 	public int[] toArray() {
 		int[] array = new int[size];
 		int i = 0;
