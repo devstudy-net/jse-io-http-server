@@ -14,6 +14,12 @@ public class DynaArray<E> extends DataSet<E>{
 	public DynaArray() {
 		array = (E[]) new Object[10];
 	}
+	
+	public DynaArray(E[] array) {
+		super();
+		this.array = array;
+		this.size = array.length;
+	}
 
 	@Override
 	public void add(E element) {
@@ -56,7 +62,7 @@ public class DynaArray<E> extends DataSet<E>{
 	}
 	
 	@Override
-	public E[] toArray() {
+	public Object[] toArray() {
 		return Arrays.copyOf(array, size);
 	}
 }

@@ -5,7 +5,7 @@ package net.devstudy.jse.lection01_classes_objects;
  * @author devstudy
  * @see http://devstudy.net
  */
-public class Student {
+public class Student implements Comparable<Student> {
 	private String firstName;
 	private String lastName;
 	private int age;
@@ -93,11 +93,16 @@ public class Student {
 			return false;
 		return true;
 	}
-	
-	static int a;
-	
-	public static double sin(double a) {
-		a = 0;
-		return StrictMath.sin(a); 
-    }
+
+	@Override
+	public int compareTo(Student o) {
+		int result = this.lastName.compareToIgnoreCase(o.lastName);
+		if (result == 0) {
+			result = this.firstName.compareToIgnoreCase(o.firstName);
+			if (result == 0) {
+				result = this.age - o.age;
+			}
+		}
+		return result;
+	}
 }

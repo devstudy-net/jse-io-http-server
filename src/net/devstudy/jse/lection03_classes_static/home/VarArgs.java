@@ -17,6 +17,11 @@ public class VarArgs {
 			System.out.print(objects[i]+", ");
 		}
 		System.out.println();
+		
+		for(int object : objects){
+			System.out.print(object+", ");
+		}
+		System.out.println();
 	}
 
 }

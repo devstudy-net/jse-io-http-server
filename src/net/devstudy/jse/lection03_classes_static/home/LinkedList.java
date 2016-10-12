@@ -22,6 +22,18 @@ public class LinkedList<E> extends DataSet<E>{
 		}
 		size++;
 	}
+	
+	protected void addLinkedList(LinkedList<E> list) {
+		this.size += list.size();
+		if (this.first == null) {
+			this.first = list.first;
+		}
+		if (this.last != null) {
+			this.last.setNext(list.first);
+			list.first.setPrevious(this.last);
+		}
+		this.last = list.last;
+	}
 
 	@Override
 	public E get(int index) {
@@ -87,7 +99,7 @@ public class LinkedList<E> extends DataSet<E>{
 
 	
 	@Override
-	public E[] toArray() {
+	public Object[] toArray() {
 		E[] array = (E[]) new Object[size];
 		int i = 0;
 		Item<E> current = first;

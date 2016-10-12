@@ -28,7 +28,7 @@ public abstract class DataSet<T> {
 
 	public abstract T remove(int index);
 
-	public abstract T[] toArray();
+	public abstract Object[] toArray();
 
 	@Override
 	public int hashCode() {
