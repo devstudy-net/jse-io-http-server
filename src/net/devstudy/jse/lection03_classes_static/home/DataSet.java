@@ -1,4 +1,4 @@
-package net.devstudy.jse.lection02_inheritance_polymorph;
+package net.devstudy.jse.lection03_classes_static.home;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author devstudy
  * @see http://devstudy.net
  */
-public abstract class DataSet {
+public abstract class DataSet<T> {
 	protected int size;
 
 	public DataSet() {
@@ -22,13 +22,13 @@ public abstract class DataSet {
 		size = 0;
 	}
 
-	public abstract void add(int element);
+	public abstract void add(T element);
 
-	public abstract int get(int index);
+	public abstract T get(int index);
 
-	public abstract int remove(int index);
+	public abstract T remove(int index);
 
-	public abstract int[] toArray();
+	public abstract T[] toArray();
 
 	@Override
 	public int hashCode() {
@@ -39,6 +39,7 @@ public abstract class DataSet {
 		return result;
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) {

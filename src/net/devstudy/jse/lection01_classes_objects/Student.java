@@ -93,4 +93,11 @@ public class Student {
 			return false;
 		return true;
 	}
+	
+	static int a;
+	
+	public static double sin(double a) {
+		a = 0;
+		return StrictMath.sin(a); 
+    }
 }
