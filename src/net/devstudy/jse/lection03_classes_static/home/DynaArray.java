@@ -8,13 +8,13 @@ import java.util.Arrays;
  * @see http://devstudy.net
  */
 @SuppressWarnings("unchecked")
-public class DynaArray<E> extends DataSet<E>{
+public class DynaArray<E> extends DataSet<E> {
 	private E[] array;
 
 	public DynaArray() {
 		array = (E[]) new Object[10];
 	}
-	
+
 	public DynaArray(E[] array) {
 		super();
 		this.array = array;
@@ -32,7 +32,7 @@ public class DynaArray<E> extends DataSet<E>{
 		}
 		array[size++] = element;
 	}
-	
+
 	@Override
 	public E remove(int index) {
 		if (index < size) {
@@ -48,19 +48,20 @@ public class DynaArray<E> extends DataSet<E>{
 
 	@Override
 	public E get(int index) {
-		if(index < size) {
+		if (index < size) {
 			return array[index];
 		} else {
-			return null;
+			throw new IndexOutOfBoundsException(
+					"Index should be between 0 and " + (size() - 1) + ". Current index: " + index);
 		}
 	}
-	
+
 	@Override
 	public void clear() {
 		super.clear();
 		array = (E[]) new Object[10];
 	}
-	
+
 	@Override
 	public Object[] toArray() {
 		return Arrays.copyOf(array, size);
