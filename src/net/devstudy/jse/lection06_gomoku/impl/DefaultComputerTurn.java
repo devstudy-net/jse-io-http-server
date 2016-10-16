@@ -1,10 +1,10 @@
 package net.devstudy.jse.lection06_gomoku.impl;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 
-import net.devstudy.jse.lection05_exceptions.home.DataSet;
-import net.devstudy.jse.lection05_exceptions.home.DynaArray;
 import net.devstudy.jse.lection06_gomoku.Cell;
 import net.devstudy.jse.lection06_gomoku.CellValue;
 import net.devstudy.jse.lection06_gomoku.ComputerTurn;
@@ -50,7 +50,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 	}
 
 	protected Cell makeRandomTurn() {
-		DataSet<Cell> emptyCells = getAllEmptyCells();
+		List<Cell> emptyCells = getAllEmptyCells();
 		if (emptyCells.size() > 0) {
 			Cell randomCell = emptyCells.get(new Random().nextInt(emptyCells.size()));
 			gameTable.setValue(randomCell.getRowIndex(), randomCell.getColIndex(), CellValue.COMPUTER);
@@ -60,8 +60,8 @@ public class DefaultComputerTurn implements ComputerTurn {
 		}
 	}
 	
-	protected DataSet<Cell> getAllEmptyCells(){
-		DataSet<Cell> emptyCells = new DynaArray<>();
+	protected List<Cell> getAllEmptyCells(){
+		List<Cell> emptyCells = new ArrayList<>();
 		for (int i = 0; i < gameTable.getSize(); i++) {
 			for (int j = 0; j < gameTable.getSize(); j++) {
 				if (gameTable.isCellFree(i, j)) {
@@ -97,7 +97,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 			for (int j = 0; j < gameTable.getSize() - winCount - 1; j++) {
 				boolean hasEmptyCells = false;
 				int count = 0;
-				DataSet<Cell> inspectedCells = new DynaArray<>();
+				List<Cell> inspectedCells = new ArrayList<>(winCount);
 				for (int k = 0; k < winCount; k++) {
 					inspectedCells.add(new Cell(i, j + k));
 					if (gameTable.getValue(i, j + k) == cellValue) {
@@ -122,7 +122,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 			for (int j = 0; j < gameTable.getSize() - winCount - 1; j++) {
 				boolean hasEmptyCells = false;
 				int count = 0;
-				DataSet<Cell> inspectedCells = new DynaArray<>();
+				List<Cell> inspectedCells = new ArrayList<>(winCount);
 				for (int k = 0; k < winCount; k++) {
 					inspectedCells.add(new Cell(j + k, i));
 					if (gameTable.getValue(j + k, i) == cellValue) {
@@ -147,7 +147,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 			for (int j = 0; j < gameTable.getSize() - winCount - 1; j++) {
 				boolean hasEmptyCells = false;
 				int count = 0;
-				DataSet<Cell> inspectedCells = new DynaArray<>();
+				List<Cell> inspectedCells = new ArrayList<>(winCount);
 				for (int k = 0; k < winCount; k++) {
 					inspectedCells.add(new Cell(i + k, j + k));
 					if (gameTable.getValue(i + k, j + k) == cellValue) {
@@ -172,7 +172,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 			for (int j = winCount - 1; j < gameTable.getSize(); j++) {
 				boolean hasEmptyCells = false;
 				int count = 0;
-				DataSet<Cell> inspectedCells = new DynaArray<>();
+				List<Cell> inspectedCells = new ArrayList<>(winCount);
 				for (int k = 0; k < winCount; k++) {
 					inspectedCells.add(new Cell(i + k, j - k));
 					if (gameTable.getValue(i + k, j - k) == cellValue) {
@@ -192,13 +192,13 @@ public class DefaultComputerTurn implements ComputerTurn {
 		return null;
 	}
 
-	protected Cell makeTurnToOneCellFromDataSet(DataSet<Cell> inspectedCells) {
+	protected Cell makeTurnToOneCellFromDataSet(List<Cell> inspectedCells) {
 		Cell cell = findEmptyCellForComputerTurn(inspectedCells);
 		gameTable.setValue(cell.getRowIndex(), cell.getColIndex(), CellValue.COMPUTER);
 		return cell;
 	}
 	
-	protected Cell findEmptyCellForComputerTurn(DataSet<Cell> cells) {
+	protected Cell findEmptyCellForComputerTurn(List<Cell> cells) {
 		for (int i = 0; i < cells.size(); i++) {
 			Cell currentCell = cells.get(i);
 			if (gameTable.getValue(currentCell.getRowIndex(), currentCell.getColIndex()) != CellValue.EMPTY) {

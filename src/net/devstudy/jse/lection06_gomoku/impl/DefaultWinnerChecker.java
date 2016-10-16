@@ -1,10 +1,10 @@
 package net.devstudy.jse.lection06_gomoku.impl;
 
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
-import net.devstudy.jse.lection05_exceptions.home.DataSet;
-import net.devstudy.jse.lection05_exceptions.home.DataUtils;
-import net.devstudy.jse.lection05_exceptions.home.DynaArray;
 import net.devstudy.jse.lection06_gomoku.Cell;
 import net.devstudy.jse.lection06_gomoku.CellValue;
 import net.devstudy.jse.lection06_gomoku.GameTable;
@@ -32,7 +32,7 @@ public class DefaultWinnerChecker implements WinnerChecker {
 	@Override
 	public WinnerResult isWinnerFound(CellValue cellValue) {
 		Objects.requireNonNull(cellValue, "cellValue can't be null");
-		DataSet<Cell> result = isWinnerByRow(cellValue);
+		List<Cell> result = isWinnerByRow(cellValue);
 		if (result != null) {
 			return new DefaultWinnerResult(result);
 		}
@@ -51,9 +51,9 @@ public class DefaultWinnerChecker implements WinnerChecker {
 		return new DefaultWinnerResult(null);
 	}
 
-	protected DataSet<Cell> isWinnerByRow(CellValue cellValue) {
+	protected List<Cell> isWinnerByRow(CellValue cellValue) {
 		for (int i = 0; i < gameTable.getSize(); i++) {
-			DataSet<Cell> cells = new DynaArray<>();
+			List<Cell> cells = new ArrayList<>(winCount);
 			for (int j = 0; j < gameTable.getSize(); j++) {
 				if (gameTable.getValue(i, j) == cellValue) {
 					cells.add(new Cell(i, j));
@@ -71,9 +71,9 @@ public class DefaultWinnerChecker implements WinnerChecker {
 		return null;
 	}
 
-	protected DataSet<Cell> isWinnerByCol(CellValue cellValue) {
+	protected List<Cell> isWinnerByCol(CellValue cellValue) {
 		for (int i = 0; i < gameTable.getSize(); i++) {
-			DataSet<Cell> cells = new DynaArray<>();
+			List<Cell> cells = new ArrayList<>(winCount);
 			for (int j = 0; j < gameTable.getSize(); j++) {
 				if (gameTable.getValue(j, i) == cellValue) {
 					cells.add(new Cell(j, i));
@@ -91,11 +91,11 @@ public class DefaultWinnerChecker implements WinnerChecker {
 		return null;
 	}
 
-	protected DataSet<Cell> isWinnerByMainDiagonal(CellValue cellValue) {
+	protected List<Cell> isWinnerByMainDiagonal(CellValue cellValue) {
 		int winCountMinus1 = winCount - 1;
 		for (int i = 0; i < gameTable.getSize() - winCountMinus1; i++) {
 			for (int j = 0; j < gameTable.getSize() - winCountMinus1; j++) {
-				DataSet<Cell> cells = new DynaArray<>();
+				List<Cell> cells = new ArrayList<>(winCount);
 				for (int k = 0; k < winCount; k++) {
 					if (gameTable.getValue(i + k, j + k) == cellValue) {
 						cells.add(new Cell(i + k, j + k));
@@ -111,11 +111,11 @@ public class DefaultWinnerChecker implements WinnerChecker {
 		return null;
 	}
 
-	protected DataSet<Cell> isWinnerByNotMainDiagonal(CellValue cellValue) {
+	protected List<Cell> isWinnerByNotMainDiagonal(CellValue cellValue) {
 		int winCountMinus1 = winCount - 1;
 		for (int i = 0; i < gameTable.getSize() - winCountMinus1; i++) {
 			for (int j = winCountMinus1; j < gameTable.getSize(); j++) {
-				DataSet<Cell> cells = new DynaArray<>();
+				List<Cell> cells = new ArrayList<>(winCount);
 				for (int k = 0; k < winCount; k++) {
 					if (gameTable.getValue(i + k, j - k) == cellValue) {
 						cells.add(new Cell(i + k, j - k));
@@ -137,13 +137,13 @@ public class DefaultWinnerChecker implements WinnerChecker {
 	 * @see http://devstudy.net
 	 */
 	private static class DefaultWinnerResult implements WinnerResult {
-		private final DataSet<Cell> winnerCells;
+		private final List<Cell> winnerCells;
 
-		DefaultWinnerResult(DataSet<Cell> winnerCells) {
-			this.winnerCells = winnerCells != null ? DataUtils.newImmutableDataSet(winnerCells) : DataUtils.newImmutableDataSet(new Cell[0]);
+		DefaultWinnerResult(List<Cell> winnerCells) {
+			this.winnerCells = winnerCells != null ? Collections.unmodifiableList(winnerCells) : Collections.emptyList();
 		}
 
-		public DataSet<Cell> getWinnerCells() {
+		public List<Cell> getWinnerCells() {
 			return winnerCells;
 		}
 

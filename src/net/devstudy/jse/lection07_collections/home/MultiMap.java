@@ -31,7 +31,7 @@ public interface MultiMap<K, V> {
 
 	Iterator<V> valuesIterator(K key);
 
-	Collection<V> remove(Object key);
+	Collection<V> remove(K key);
 
 	Set<K> keySet();
 

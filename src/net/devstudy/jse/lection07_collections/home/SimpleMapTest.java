@@ -7,6 +7,7 @@ package net.devstudy.jse.lection07_collections.home;
  */
 public class SimpleMapTest {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		SimpleMap<Integer, Integer>[] maps = new SimpleMap[] { new HashSimpleMap<>(), new TreeSimpleMap<>() };
 		for (SimpleMap<Integer, Integer> map : maps) {

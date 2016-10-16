@@ -8,6 +8,7 @@ import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
@@ -16,7 +17,6 @@ import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
-import net.devstudy.jse.lection05_exceptions.home.DataSet;
 import net.devstudy.jse.lection06_gomoku.impl.DefaultComputerTurn;
 import net.devstudy.jse.lection06_gomoku.impl.DefaultGameTable;
 import net.devstudy.jse.lection06_gomoku.impl.DefaultHumanTurn;
@@ -68,7 +68,7 @@ public class GUIGomoku extends JFrame {
 		
 	}
 
-	protected void markWinnerCells(DataSet<Cell> winnerCells) {
+	protected void markWinnerCells(List<Cell> winnerCells) {
 		for (int i = 0; i < winnerCells.size(); i++) {
 			Cell cell = winnerCells.get(i);
 			cells[cell.getRowIndex()][cell.getColIndex()].setForeground(Color.CYAN);

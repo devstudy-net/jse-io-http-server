@@ -1,19 +1,21 @@
 package net.devstudy.jse.lection07_collections.home;
+
 /**
- *
+ * 
  * @author devstudy
  * @see http://devstudy.net
  */
 public class MultiMapTest {
-
 	public static void main(String[] args) {
-		MultiMap<String, String> map = null;
+		MultiMap<String, String> map = DefaultMultiMap.newMultiHashMap();
+		
 		map.put("hello", "hello-1");
 		map.put("hello", "hello-2");
 		map.put("java", "java-1");
 		map.put("java", "java-2");
 		map.put("java", "java-3");
 		map.put("world", "world-1");
+		
 		System.out.println("size="+map.size());
 		System.out.println("isEmpty="+map.isEmpty());
 		System.out.println("countValues(java)="+map.countValues("java"));
@@ -31,5 +33,4 @@ public class MultiMapTest {
 		System.out.println("valuesIterator(hi)="+map.valuesIterator("hi").hasNext());
 		System.out.println("entrySet()="+map.entrySet());
 	}
-
 }

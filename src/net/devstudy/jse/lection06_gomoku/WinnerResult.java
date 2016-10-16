@@ -1,6 +1,6 @@
 package net.devstudy.jse.lection06_gomoku;
 
-import net.devstudy.jse.lection05_exceptions.home.DataSet;
+import java.util.List;
 
 /**
  * 
@@ -11,5 +11,5 @@ public interface WinnerResult {
 
 	boolean winnerExists();
 	
-	DataSet<Cell> getWinnerCells();
+	List<Cell> getWinnerCells();
 }

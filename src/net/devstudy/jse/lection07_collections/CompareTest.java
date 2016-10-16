@@ -29,7 +29,7 @@ public class CompareTest implements Comparable<CompareTest> {
 
 	@Override
 	public int hashCode() {
-		return value;
+		return 0;
 	}
 
 	@Override
