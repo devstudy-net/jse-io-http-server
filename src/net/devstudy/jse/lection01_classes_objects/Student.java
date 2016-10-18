@@ -6,6 +6,7 @@ package net.devstudy.jse.lection01_classes_objects;
  * @see http://devstudy.net
  */
 public class Student implements Comparable<Student> {
+	private Long id;
 	private String firstName;
 	private String lastName;
 	private int age;
@@ -14,6 +15,14 @@ public class Student implements Comparable<Student> {
 		setFirstName(firstName);
 		setLastName(lastName);
 		setAge(age);
+	}
+
+	public Student(Long id, String firstName, String lastName, int age) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
 	}
 
 	public Student() {
@@ -53,6 +62,14 @@ public class Student implements Comparable<Student> {
 
 	public String getFullName() {
 		return getLastName() + " " + getFirstName();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	@Override
