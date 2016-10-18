@@ -73,7 +73,7 @@ public class DatabaseStudentProvider implements StudentProvider {
 	}
 
 	@Override
-	public long countByAge(Long id) {
+	public long countByAge(int age) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
