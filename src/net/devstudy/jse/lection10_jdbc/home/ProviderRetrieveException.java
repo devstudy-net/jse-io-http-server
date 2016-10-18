@@ -1,11 +1,12 @@
 package net.devstudy.jse.lection10_jdbc.home;
+
 /**
- *
+ * 
  * @author devstudy
  * @see http://devstudy.net
  */
 public class ProviderRetrieveException extends RuntimeException {
-	private static final long serialVersionUID = 446897167697833563L;
+	private static final long serialVersionUID = -2767048558347173056L;
 
 	public ProviderRetrieveException(String message) {
 		super(message);
@@ -18,10 +19,4 @@ public class ProviderRetrieveException extends RuntimeException {
 	public ProviderRetrieveException(String message, Throwable cause) {
 		super(message, cause);
 	}
-
-	public ProviderRetrieveException(String message, Throwable cause, boolean enableSuppression,
-			boolean writableStackTrace) {
-		super(message, cause, enableSuppression, writableStackTrace);
-	}
-
 }

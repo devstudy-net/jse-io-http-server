@@ -12,7 +12,7 @@ import net.devstudy.jse.lection10_jdbc.JDBCUtils;
 import net.devstudy.jse.lection10_jdbc.ResultSetHandler;
 
 /**
- *
+ * 
  * @author devstudy
  * @see http://devstudy.net
  */
@@ -26,8 +26,7 @@ public class DatabaseStudentProvider implements StudentProvider {
 		@Override
 		public Student handle(ResultSet rs) throws SQLException {
 			if (rs.next()) {
-				return new Student(rs.getLong("id"), rs.getString("first_name"), rs.getString("last_name"),
-						rs.getInt("age"));
+				return new Student(rs.getLong("id"), rs.getString("first_name"), rs.getString("last_name"), rs.getInt("age"));
 			} else {
 				return null;
 			}
@@ -38,10 +37,19 @@ public class DatabaseStudentProvider implements StudentProvider {
 		public List<Student> handle(ResultSet rs) throws SQLException {
 			List<Student> list = new ArrayList<>();
 			while (rs.next()) {
-				list.add(new Student(rs.getLong("id"), rs.getString("first_name"), rs.getString("last_name"),
-						rs.getInt("age")));
+				list.add(new Student(rs.getLong("id"), rs.getString("first_name"), rs.getString("last_name"), rs.getInt("age")));
 			}
 			return list;
+		}
+	};
+	private static ResultSetHandler<Long> COUNT_HANDLER = new ResultSetHandler<Long>() {
+		@Override
+		public Long handle(ResultSet rs) throws SQLException {
+			if (rs.next()) {
+				return rs.getLong(1);
+			} else {
+				return 0L;
+			}
 		}
 	};
 
@@ -55,34 +63,46 @@ public class DatabaseStudentProvider implements StudentProvider {
 	}
 
 	@Override
-	public long countAll() {
-		// TODO Auto-generated method stub
-		return 0;
+	public Student findById(Long id) {
+		try (Connection c = getConnection()) {
+			return JDBCUtils.select(c, "select * from student where id = ?", ONE_STUDENT_HANDLER, id);
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
 	}
 
 	@Override
-	public Student findById(Long id) {
-		// TODO Auto-generated method stub
-		return null;
+	public long countAll() {
+		try (Connection c = getConnection()) {
+			return JDBCUtils.select(c, "select count(*) from student", COUNT_HANDLER);
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
 	}
 
 	@Override
 	public List<Student> findByAge(int age, int offset, int limit) {
-		// TODO Auto-generated method stub
-		return null;
+		try (Connection c = getConnection()) {
+			return JDBCUtils.select(c, "select * from student where age=? limit ? offset ?", LIST_STUDENTS_HANDLER, age, limit, offset);
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
 	}
 
 	@Override
 	public long countByAge(int age) {
-		// TODO Auto-generated method stub
-		return 0;
+		try (Connection c = getConnection()) {
+			return JDBCUtils.select(c, "select count(*) from student where age=?", COUNT_HANDLER, age);
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
 	}
 
 	@Override
 	public void create(Student student) {
 		try (Connection c = getConnection()) {
-			Student insertedStudent = JDBCUtils.insert(c, "insert into student values(nextval('student_seq'),?,?,?)",
-					ONE_STUDENT_HANDLER, student.getFirstName(), student.getLastName(), student.getAge());
+			Student insertedStudent = JDBCUtils.insert(c, "insert into student values(nextval('student_seq'),?,?,?)", ONE_STUDENT_HANDLER, 
+					student.getFirstName(), student.getLastName(), student.getAge());
 			student.setId(insertedStudent.getId());
 		} catch (SQLException e) {
 			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
@@ -91,20 +111,31 @@ public class DatabaseStudentProvider implements StudentProvider {
 
 	@Override
 	public void update(Student student) {
-		// TODO Auto-generated method stub
-
+		try (Connection c = getConnection()) {
+			int result = JDBCUtils.executeUpdate(c, "update student set first_name=?, last_name=?, age=? where id=?",
+					student.getFirstName(), student.getLastName(), student.getAge(), student.getId());
+			if (result == 0) {
+				throw new ProviderRetrieveException("Student not found by id="+student.getId());
+			}
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
 	}
 
 	@Override
 	public void delete(Student student) {
-		// TODO Auto-generated method stub
-
+		deleteById(student.getId());
 	}
 
 	@Override
 	public void deleteById(Long id) {
-		// TODO Auto-generated method stub
-
+		try (Connection c = getConnection()) {
+			int result = JDBCUtils.executeUpdate(c, "delete from student where id=?", id);
+			if (result == 0) {
+				throw new ProviderRetrieveException("Student not found by id="+id);
+			}
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
 	}
-
 }

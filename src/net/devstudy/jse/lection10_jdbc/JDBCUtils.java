@@ -32,6 +32,13 @@ public class JDBCUtils {
 			}
 		}
 	}
+	
+	public static int executeUpdate(Connection c, String sql, Object... parameters) throws SQLException {
+		try (PreparedStatement ps = c.prepareStatement(sql)) {
+			populatePreparedStatement(ps, parameters);
+			return ps.executeUpdate();
+		}
+	}
 
 	private static void populatePreparedStatement(PreparedStatement ps, Object... parameters) throws SQLException {
 		if (parameters != null) {
