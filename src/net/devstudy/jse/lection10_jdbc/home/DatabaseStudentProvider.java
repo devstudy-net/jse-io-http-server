@@ -128,7 +128,7 @@ public class DatabaseStudentProvider implements StudentProvider {
 	}
 
 	@Override
-	public void deleteById(Long id) {
+	public void deleteById(final Long id) {
 		try (Connection c = getConnection()) {
 			int result = JDBCUtils.executeUpdate(c, "delete from student where id=?", id);
 			if (result == 0) {
@@ -137,5 +137,27 @@ public class DatabaseStudentProvider implements StudentProvider {
 		} catch (SQLException e) {
 			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
 		}
+		/*execute(new Callback<Void>(){
+			@Override
+			public Void execute(Connection c) throws SQLException {
+				int result = JDBCUtils.executeUpdate(c, "delete from student where id=?", id);
+				if (result == 0) {
+					throw new ProviderRetrieveException("Student not found by id="+id);
+				}
+				return null;
+			}
+		});*/
+	}
+	
+	protected <T> T execute(Callback<T> callback) {
+		try (Connection c = getConnection()) {
+			return callback.execute(c);
+		} catch (SQLException e) {
+			throw new ProviderRetrieveException("Can't execute SQL query: " + e.getMessage(), e);
+		}
+	}
+	
+	private interface Callback<T> {
+		T execute(Connection c) throws SQLException;
 	}
 }
