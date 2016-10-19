@@ -1,9 +1,12 @@
 package net.devstudy.jse.lection06_gomoku.impl;
 
-import java.util.Collections;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import net.devstudy.jse.lection06_gomoku.Cell;
 import net.devstudy.jse.lection06_gomoku.CellValue;
@@ -17,6 +20,7 @@ import net.devstudy.jse.lection06_gomoku.WinnerResult;
  * @see http://devstudy.net
  */
 public class DefaultWinnerChecker implements WinnerChecker {
+	private static final Logger LOGGER = LoggerFactory.getLogger(DefaultWinnerChecker.class); 
 	private GameTable gameTable;
 	private int winCount = DefaultConstants.WIN_COUNT;
 	
@@ -32,22 +36,31 @@ public class DefaultWinnerChecker implements WinnerChecker {
 	@Override
 	public WinnerResult isWinnerFound(CellValue cellValue) {
 		Objects.requireNonNull(cellValue, "cellValue can't be null");
+		LOGGER.trace("Try to find winner by row: is {} winner?", cellValue);
 		List<Cell> result = isWinnerByRow(cellValue);
 		if (result != null) {
+			LOGGER.debug("Winner is {}. By row: {}", cellValue, result);
 			return new DefaultWinnerResult(result);
 		}
+		LOGGER.trace("Try to find winner by col: is {} winner?", cellValue);
 		result = isWinnerByCol(cellValue);
 		if (result != null) {
+			LOGGER.debug("Winner is {}. By col: {}", cellValue, result);
 			return new DefaultWinnerResult(result);
 		}
+		LOGGER.trace("Try to find winner by main diagonal: is {} winner?", cellValue);
 		result = isWinnerByMainDiagonal(cellValue);
 		if (result != null) {
+			LOGGER.debug("Winner is {}. By main diagonal: {}", cellValue, result);
 			return new DefaultWinnerResult(result);
 		}
+		LOGGER.trace("Try to find winner by not main diagonal: is {} winner?", cellValue);
 		result = isWinnerByNotMainDiagonal(cellValue);
 		if (result != null) {
+			LOGGER.debug("Winner is {}. By not main diagonals: {}", cellValue, result);
 			return new DefaultWinnerResult(result);
 		}
+		LOGGER.trace("Winner not found");
 		return new DefaultWinnerResult(null);
 	}
 

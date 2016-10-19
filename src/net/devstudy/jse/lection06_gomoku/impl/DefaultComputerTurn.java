@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import net.devstudy.jse.lection06_gomoku.Cell;
 import net.devstudy.jse.lection06_gomoku.CellValue;
 import net.devstudy.jse.lection06_gomoku.ComputerTurn;
@@ -16,6 +19,7 @@ import net.devstudy.jse.lection06_gomoku.GameTable;
  * @see http://devstudy.net
  */
 public class DefaultComputerTurn implements ComputerTurn {
+	private static final Logger LOGGER = LoggerFactory.getLogger(DefaultComputerTurn.class);
 	private GameTable gameTable;
 	private int winCount = DefaultConstants.WIN_COUNT;
 	
@@ -35,6 +39,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 			for (CellValue cellValue : figures) {
 				Cell cell = tryMakeTurn(cellValue, i);
 				if (cell != null) {
+					LOGGER.info("Computer turn is {}", cell);
 					return cell;
 				}
 			}
@@ -46,6 +51,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 	public Cell makeFirstTurn() {
 		Cell cell = new Cell(gameTable.getSize() / 2, gameTable.getSize() / 2);
 		gameTable.setValue(cell.getRowIndex(), cell.getColIndex(), CellValue.COMPUTER);
+		LOGGER.info("Computer first turn is {}", cell);
 		return cell;
 	}
 
@@ -54,6 +60,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 		if (emptyCells.size() > 0) {
 			Cell randomCell = emptyCells.get(new Random().nextInt(emptyCells.size()));
 			gameTable.setValue(randomCell.getRowIndex(), randomCell.getColIndex(), CellValue.COMPUTER);
+			LOGGER.info("Computer random turn is {}", randomCell);
 			return randomCell;
 		} else {
 			throw new ComputerCantMakeTurnException("All cells are filled! Have you checked draw state before call of computer turn?");
@@ -73,18 +80,22 @@ public class DefaultComputerTurn implements ComputerTurn {
 	}
 
 	protected Cell tryMakeTurn(CellValue cellValue, int notBlankCount) {
+		LOGGER.trace("Try to make turn by row for pattern: {} empty and {} not empty cells for {}", winCount - notBlankCount, notBlankCount, cellValue);
 		Cell cell = tryMakeTurnByRow(cellValue, notBlankCount);
 		if (cell != null) {
 			return cell;
 		}
+		LOGGER.trace("Try to make turn by col for pattern: {} empty and {} not empty cells for {}", winCount - notBlankCount, notBlankCount, cellValue);
 		cell = tryMakeTurnByCol(cellValue, notBlankCount);
 		if (cell != null) {
 			return cell;
 		}
+		LOGGER.trace("Try to make turn by main diagonal for pattern: {} empty and {} not empty cells for {}", winCount - notBlankCount, notBlankCount, cellValue);
 		cell = tryMakeTurnByMainDiagonal(cellValue, notBlankCount);
 		if (cell != null) {
 			return cell;
 		}
+		LOGGER.trace("Try to make turn by not main diagonal for pattern: {} empty and {} not empty cells for {}", winCount - notBlankCount, notBlankCount, cellValue);
 		cell = tryMakeTurnByNotMainDiagonal(cellValue, notBlankCount);
 		if (cell != null) {
 			return cell;
@@ -110,6 +121,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 					}
 				}
 				if (count == notBlankCount && hasEmptyCells) {
+					LOGGER.debug("Found {} empty and {} not empty cells by row: {} {}", winCount - count, count, inspectedCells, new LoggerPattern(inspectedCells));
 					return makeTurnToOneCellFromDataSet(inspectedCells);
 				}
 			}
@@ -135,6 +147,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 					}
 				}
 				if (count == notBlankCount && hasEmptyCells) {
+					LOGGER.debug("Found {} empty and {} not empty cells by col: {} {}", winCount - count, count, inspectedCells, new LoggerPattern(inspectedCells));
 					return makeTurnToOneCellFromDataSet(inspectedCells);
 				}
 			}
@@ -160,6 +173,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 					}
 				}
 				if (count == notBlankCount && hasEmptyCells) {
+					LOGGER.debug("Found {} empty and {} not empty cells by main diagonal: {} {}", winCount - count, count, inspectedCells, new LoggerPattern(inspectedCells));
 					return makeTurnToOneCellFromDataSet(inspectedCells);
 				}
 			}
@@ -185,6 +199,7 @@ public class DefaultComputerTurn implements ComputerTurn {
 					}
 				}
 				if (count == notBlankCount && hasEmptyCells) {
+					LOGGER.debug("Found {} empty and {} not empty cells by not main diagonal: {} {}", winCount - count, count, inspectedCells, new LoggerPattern(inspectedCells));
 					return makeTurnToOneCellFromDataSet(inspectedCells);
 				}
 			}
@@ -195,10 +210,12 @@ public class DefaultComputerTurn implements ComputerTurn {
 	protected Cell makeTurnToOneCellFromDataSet(List<Cell> inspectedCells) {
 		Cell cell = findEmptyCellForComputerTurn(inspectedCells);
 		gameTable.setValue(cell.getRowIndex(), cell.getColIndex(), CellValue.COMPUTER);
+		LOGGER.trace("The best cell is {} for pattern {} {}", cell, inspectedCells, new LoggerPattern(inspectedCells));
 		return cell;
 	}
 	
 	protected Cell findEmptyCellForComputerTurn(List<Cell> cells) {
+		LOGGER.trace("Try to find the best turn by pattern {} {}", cells, new LoggerPattern(cells));
 		for (int i = 0; i < cells.size(); i++) {
 			Cell currentCell = cells.get(i);
 			if (gameTable.getValue(currentCell.getRowIndex(), currentCell.getColIndex()) != CellValue.EMPTY) {
@@ -227,5 +244,28 @@ public class DefaultComputerTurn implements ComputerTurn {
 	
 	protected boolean isCellEmpty(Cell cell) {
 		return gameTable.getValue(cell.getRowIndex(), cell.getColIndex()) == CellValue.EMPTY;
+	}
+	
+	/**
+	 * 
+	 * @author devstudy
+	 * @see http://devstudy.net
+	 */
+	private class LoggerPattern {
+		private final List<Cell> cells;
+		LoggerPattern(List<Cell> cells) {
+			super();
+			this.cells = cells;
+		}
+		@Override
+		public String toString() {
+			StringBuilder pattern = new StringBuilder("[");
+			for(Cell cell : cells) {
+				CellValue cellValue = gameTable.getValue(cell.getRowIndex(), cell.getColIndex());
+				pattern.append(cellValue == CellValue.EMPTY ? "*" : cellValue.getValue());
+			}
+			pattern.append("]");
+			return pattern.toString();
+		}
 	}
 }

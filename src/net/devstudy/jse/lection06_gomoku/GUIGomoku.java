@@ -8,6 +8,8 @@ import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.List;
 
 import javax.swing.BorderFactory;
@@ -15,7 +17,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
-import javax.swing.WindowConstants;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import net.devstudy.jse.lection06_gomoku.impl.DefaultComputerTurn;
 import net.devstudy.jse.lection06_gomoku.impl.DefaultGameTable;
@@ -28,6 +32,7 @@ import net.devstudy.jse.lection06_gomoku.impl.DefaultWinnerChecker;
  * @see http://devstudy.net
  */
 public class GUIGomoku extends JFrame {
+	private static final Logger LOGGER = LoggerFactory.getLogger(GUIGomoku.class); 
 	private static final long serialVersionUID = 1714372457079337160L;
 	private final JLabel cells[][];
 	private final GameTable gameTable;
@@ -48,6 +53,13 @@ public class GUIGomoku extends JFrame {
 		cells = new JLabel[gameTable.getSize()][gameTable.getSize()];
 		isHumanFirstTurn = true;
 		createGameUITable();
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				LOGGER.info("Game stopped with game table {}x{}", gameTable.getSize(), gameTable.getSize());
+				System.exit(0);
+			}
+		});
 	}
 	
 	protected void initGameComponents(){
@@ -114,6 +126,8 @@ public class GUIGomoku extends JFrame {
 			Cell compCell = computerTurn.makeFirstTurn();
 			drawCellValue(compCell);
 		}
+		LOGGER.info("------------------------------------------------------");
+		LOGGER.info("New game started with game table {}x{} {}", gameTable.getSize(), gameTable.getSize(), isHumanFirstTurn ? "" : CellValue.COMPUTER + " made the first turn");
 	}
 
 	protected void stopGame() {
@@ -122,6 +136,7 @@ public class GUIGomoku extends JFrame {
 				cells[i][j].removeMouseListener(cells[i][j].getMouseListeners()[0]);
 			}
 		}
+		LOGGER.info("Game disabled with game table {}x{}", gameTable.getSize(), gameTable.getSize());
 	}
 
 	protected void handleGameOver(String message) {
@@ -133,43 +148,53 @@ public class GUIGomoku extends JFrame {
 	}
 
 	protected void handleHumanTurn(int row, int col) {
-		if (gameTable.isCellFree(row, col)) {
-			Cell humanCell = humanTurn.makeTurn(row, col);
-			drawCellValue(humanCell);
-			WinnerResult winnerResult = winnerChecker.isWinnerFound(CellValue.HUMAN);
-			if (winnerResult.winnerExists()) {
-				markWinnerCells(winnerResult.getWinnerCells());
-				handleGameOver("Game over: User win!\nNew game?");
-				return;
+		try {
+			if (gameTable.isCellFree(row, col)) {
+				Cell humanCell = humanTurn.makeTurn(row, col);
+				drawCellValue(humanCell);
+				WinnerResult winnerResult = winnerChecker.isWinnerFound(CellValue.HUMAN);
+				if (winnerResult.winnerExists()) {
+					markWinnerCells(winnerResult.getWinnerCells());
+					LOGGER.info("Human wins: {}", winnerResult.getWinnerCells());
+					handleGameOver("Game over: You win!\nNew game?");
+					return;
+				}
+				if (!gameTable.emptyCellExists()) {
+					LOGGER.info("Nobody wins - draw");
+					handleGameOver("Game over: Draw!\nNew game?");
+					return;
+				}
+				Cell compCell = computerTurn.makeTurn();
+				drawCellValue(compCell);
+				winnerResult = winnerChecker.isWinnerFound(CellValue.COMPUTER);
+				if (winnerResult.winnerExists()) {
+					markWinnerCells(winnerResult.getWinnerCells());
+					LOGGER.info("Computer wins: {}", winnerResult.getWinnerCells());
+					handleGameOver("Game over: Computer wins!\nNew game?");
+					return;
+				}
+				if (!gameTable.emptyCellExists()) {
+					LOGGER.info("Nobody wins - draw");
+					handleGameOver("Game over: Draw!\nNew game?");
+					return;
+				}
+			} else {
+				LOGGER.warn("Cell {}:{} is not empty", row, col);
+				JOptionPane.showMessageDialog(this, "Cell is not empty! Click on empty cell!");
 			}
-			if (!gameTable.emptyCellExists()) {
-				handleGameOver("Game over: Draw!\nNew game?");
-				return;
-			}
-			Cell compCell = computerTurn.makeTurn();
-			drawCellValue(compCell);
-			winnerResult = winnerChecker.isWinnerFound(CellValue.COMPUTER);
-			if (winnerResult.winnerExists()) {
-				markWinnerCells(winnerResult.getWinnerCells());
-				handleGameOver("Game over: Computer wins!\nNew game?");
-				return;
-			}
-			if (!gameTable.emptyCellExists()) {
-				handleGameOver("Game over: Draw!\nNew game?");
-				return;
-			}
-		} else {
-			JOptionPane.showMessageDialog(this, "Cell is not free! Click on free cell!");
+		} catch (RuntimeException e) {
+			LOGGER.error("Error in the game: "+e.getMessage(), e);
 		}
 	}
 
 	public static void main(String[] args) {
 		GUIGomoku w = new GUIGomoku();
-		w.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		w.setResizable(false);
 		w.pack();
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		w.setLocation(dim.width / 2 - w.getSize().width / 2, dim.height / 2 - w.getSize().height / 2);
 		w.setVisible(true);
+		LOGGER.info("------------------------------------------------------");
+		LOGGER.info("New game started with game table {}x{}", w.gameTable.getSize(), w.gameTable.getSize());
 	}
 }

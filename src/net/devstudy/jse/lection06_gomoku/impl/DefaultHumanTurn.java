@@ -2,6 +2,9 @@ package net.devstudy.jse.lection06_gomoku.impl;
 
 import java.util.Objects;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import net.devstudy.jse.lection06_gomoku.Cell;
 import net.devstudy.jse.lection06_gomoku.CellValue;
 import net.devstudy.jse.lection06_gomoku.GameTable;
@@ -13,6 +16,7 @@ import net.devstudy.jse.lection06_gomoku.HumanTurn;
  * @see http://devstudy.net
  */
 public class DefaultHumanTurn implements HumanTurn{
+	private static final Logger LOGGER = LoggerFactory.getLogger(DefaultHumanTurn.class); 
 	private GameTable gameTable;
 	
 	@Override
@@ -24,6 +28,8 @@ public class DefaultHumanTurn implements HumanTurn{
 	@Override
 	public Cell makeTurn(int row, int col) {
 		gameTable.setValue(row, col, CellValue.HUMAN);
-		return new Cell(row, col);
+		Cell cell = new Cell(row, col);
+		LOGGER.info("Human turn is {}", cell);
+		return cell;
 	}
 }

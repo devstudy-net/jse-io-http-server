@@ -1,0 +1,1270 @@
+19-10-2016 01:17:43.701 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:17:43.704 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:18:04.680 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 01:18:04.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:04.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:04.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:04.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:04.682 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:04.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:04.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:04.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:04.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:18:04.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:18:04.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:18:04.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:18:04.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:18:04.688 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [7:3, 7:4, 7:5, 7:6, 7:7]
+19-10-2016 01:18:04.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [7:3, 7:4, 7:5, 7:6, 7:7]
+19-10-2016 01:18:04.688 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 7:6 for pattern [7:3, 7:4, 7:5, 7:6, 7:7]
+19-10-2016 01:18:04.688 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:6
+19-10-2016 01:18:04.688 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:04.688 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:04.688 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:04.689 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:04.689 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:06.681 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:18:06.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:06.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:06.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:06.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:06.681 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:06.681 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.682 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:06.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:06.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:06.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:06.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:06.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:06.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:06.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:06.685 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [3:7, 4:7, 5:7, 6:7, 7:7]
+19-10-2016 01:18:06.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [3:7, 4:7, 5:7, 6:7, 7:7]
+19-10-2016 01:18:06.686 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:7 for pattern [3:7, 4:7, 5:7, 6:7, 7:7]
+19-10-2016 01:18:06.686 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:7
+19-10-2016 01:18:06.686 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:06.686 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:06.686 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:06.686 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:06.686 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:07.633 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:8
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.633 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:07.634 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.635 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.635 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.635 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.635 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.635 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.635 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:07.636 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [7:7, 7:8, 7:9, 7:10, 7:11]
+19-10-2016 01:18:07.636 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [7:7, 7:8, 7:9, 7:10, 7:11]
+19-10-2016 01:18:07.637 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 7:9 for pattern [7:7, 7:8, 7:9, 7:10, 7:11]
+19-10-2016 01:18:07.637 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:9
+19-10-2016 01:18:07.637 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:07.637 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:07.637 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:07.637 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:07.637 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:08.369 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:6
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.369 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.370 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.370 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.370 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.370 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.370 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.370 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:08.371 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.371 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.371 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.371 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.371 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.371 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:08.372 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by main diagonal: [3:4, 4:5, 5:6, 6:7, 7:8]
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [3:4, 4:5, 5:6, 6:7, 7:8]
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 4:5 for pattern [3:4, 4:5, 5:6, 6:7, 7:8]
+19-10-2016 01:18:08.372 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:5
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:08.372 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:09.880 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:9
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.881 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:09.882 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by main diagonal: [5:6, 6:7, 7:8, 8:9, 9:10]
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [5:6, 6:7, 7:8, 8:9, 9:10]
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 9:10 for pattern [5:6, 6:7, 7:8, 8:9, 9:10]
+19-10-2016 01:18:09.882 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 9:10
+19-10-2016 01:18:09.882 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:09.883 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:09.883 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:09.883 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:09.883 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:10.600 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.601 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.602 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.603 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.603 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.603 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.603 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.603 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.603 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:18:10.604 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [6:4, 6:5, 6:6, 6:7, 6:8]
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:4, 6:5, 6:6, 6:7, 6:8]
+19-10-2016 01:18:10.604 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 6:6 for pattern [6:4, 6:5, 6:6, 6:7, 6:8]
+19-10-2016 01:18:10.604 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:18:10.605 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:10.605 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:10.605 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:10.605 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:10.605 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:11.360 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:6
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.361 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.362 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:11.363 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by not main diagonal: [4:10, 5:9, 6:8, 7:7, 8:6]
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [4:10, 5:9, 6:8, 7:7, 8:6]
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:9 for pattern [4:10, 5:9, 6:8, 7:7, 8:6]
+19-10-2016 01:18:11.363 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:9
+19-10-2016 01:18:11.363 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:11.364 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:11.364 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:11.364 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:11.364 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:12.096 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:4
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.097 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.099 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by not main diagonal: [6:8, 7:7, 8:6, 9:5, 10:4]
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:8, 7:7, 8:6, 9:5, 10:4]
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 9:5 for pattern [6:8, 7:7, 8:6, 9:5, 10:4]
+19-10-2016 01:18:12.100 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 9:5
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:12.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:12.784 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:7
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.785 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.786 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:18:12.787 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by row: [8:5, 8:6, 8:7, 8:8, 8:9]
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [8:5, 8:6, 8:7, 8:8, 8:9]
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 8:5 for pattern [8:5, 8:6, 8:7, 8:8, 8:9]
+19-10-2016 01:18:12.787 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:5
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:12.787 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:13.328 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:8
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:13.329 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by row: [8:6, 8:7, 8:8, 8:9, 8:10]
+19-10-2016 01:18:13.329 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [8:6, 8:7, 8:8, 8:9, 8:10]
+19-10-2016 01:18:13.330 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 8:10 for pattern [8:6, 8:7, 8:8, 8:9, 8:10]
+19-10-2016 01:18:13.330 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:10
+19-10-2016 01:18:13.330 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:13.330 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:13.330 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:13.330 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:13.330 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:14.024 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:8
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:14.025 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:18:14.026 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by col: [5:8, 6:8, 7:8, 8:8, 9:8]
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [5:8, 6:8, 7:8, 8:8, 9:8]
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:8 for pattern [5:8, 6:8, 7:8, 8:8, 9:8]
+19-10-2016 01:18:14.026 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:8
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:18:14.026 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:18:14.816 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 10:8
+19-10-2016 01:18:14.817 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:18:14.817 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:18:14.817 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is HUMAN. By col: [6:8, 7:8, 8:8, 9:8, 10:8]
+19-10-2016 01:18:14.817 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Human wins: [6:8, 7:8, 8:8, 9:8, 10:8]
+19-10-2016 01:18:16.044 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 01:18:17.272 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:18:56.802 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:18:56.807 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:18:59.185 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:18:59.190 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7]
+19-10-2016 01:18:59.190 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:18:59.873 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 01:18:59.875 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [6:7, 6:8, 6:9, 6:10, 6:11]
+19-10-2016 01:18:59.875 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:9
+19-10-2016 01:19:00.449 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 01:19:00.451 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [2:8, 3:8, 4:8, 5:8, 6:8]
+19-10-2016 01:19:00.451 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:8
+19-10-2016 01:19:01.281 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:8
+19-10-2016 01:19:01.282 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [5:8, 6:8, 7:8, 8:8, 9:8]
+19-10-2016 01:19:01.282 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:8
+19-10-2016 01:19:01.905 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:7
+19-10-2016 01:19:01.907 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by main diagonal: [4:4, 5:5, 6:6, 7:7, 8:8]
+19-10-2016 01:19:01.907 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:5
+19-10-2016 01:19:02.408 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:9
+19-10-2016 01:19:02.410 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by main diagonal: [4:4, 5:5, 6:6, 7:7, 8:8]
+19-10-2016 01:19:02.410 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:4
+19-10-2016 01:19:03.184 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 01:19:03.186 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by main diagonal: [2:2, 3:3, 4:4, 5:5, 6:6]
+19-10-2016 01:19:03.186 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:3
+19-10-2016 01:19:04.208 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 2:2
+19-10-2016 01:19:04.210 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by row: [7:5, 7:6, 7:7, 7:8, 7:9]
+19-10-2016 01:19:04.210 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:6
+19-10-2016 01:19:04.880 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:7
+19-10-2016 01:19:04.881 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by col: [3:7, 4:7, 5:7, 6:7, 7:7]
+19-10-2016 01:19:04.881 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:7
+19-10-2016 01:19:05.968 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:10
+19-10-2016 01:19:05.969 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by col: [4:7, 5:7, 6:7, 7:7, 8:7]
+19-10-2016 01:19:05.969 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:7
+19-10-2016 01:19:06.680 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:6
+19-10-2016 01:19:06.681 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is HUMAN. By main diagonal: [4:6, 5:7, 6:8, 7:9, 8:10]
+19-10-2016 01:19:06.681 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Human wins: [4:6, 5:7, 6:8, 7:9, 8:10]
+19-10-2016 01:19:07.868 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 01:19:08.832 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:19:34.935 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:19:34.938 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:19:35.721 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:19:35.725 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:19:36.113 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 01:19:36.115 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:9
+19-10-2016 01:19:37.409 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:26:01.428 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:26:01.431 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:26:05.041 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:26:05.042 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:05.042 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:05.042 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:05.042 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:05.042 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:05.043 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.043 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.043 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.043 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.043 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.044 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.044 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.044 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:05.044 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.045 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.045 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.045 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.045 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.045 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.046 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.046 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:05.046 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.046 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.046 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.046 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.047 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.047 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.047 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.047 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:05.047 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:26:05.047 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:26:05.048 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:26:05.048 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:26:05.048 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:26:05.048 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7]
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 6:6 for pattern [6:3, 6:4, 6:5, 6:6, 6:7] [***OX]
+19-10-2016 01:26:05.049 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:05.049 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:31.920 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:7
+19-10-2016 01:26:31.920 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:31.920 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:31.920 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:31.920 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:31.920 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.921 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.922 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:31.922 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.922 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.922 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.922 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.922 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.923 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.923 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.923 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:31.923 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:31.923 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:31.923 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:31.924 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:31.924 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:31.924 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:31.924 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [5:7, 6:7, 7:7, 8:7, 9:7]
+19-10-2016 01:26:31.924 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [5:7, 6:7, 7:7, 8:7, 9:7] [*X**X]
+19-10-2016 01:26:31.925 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:7 for pattern [5:7, 6:7, 7:7, 8:7, 9:7] [OX**X]
+19-10-2016 01:26:31.925 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:7
+19-10-2016 01:26:31.925 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:31.925 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:31.925 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:31.925 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:31.925 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:41.720 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:7
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.721 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:41.722 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:41.723 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [6:7, 7:7, 8:7, 9:7, 10:7]
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:7, 7:7, 8:7, 9:7, 10:7] [X*XX*]
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 7:7 for pattern [6:7, 7:7, 8:7, 9:7, 10:7] [XOXX*]
+19-10-2016 01:26:41.723 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:7
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:41.723 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:41.724 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:41.724 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:51.241 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 10:7
+19-10-2016 01:26:51.241 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:51.241 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:51.241 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:51.241 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:51.241 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.242 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.243 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:51.243 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:51.243 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:51.243 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:51.243 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:51.243 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:51.244 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [8:7, 9:7, 10:7, 11:7, 12:7]
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [8:7, 9:7, 10:7, 11:7, 12:7] [XXX**]
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 11:7 for pattern [8:7, 9:7, 10:7, 11:7, 12:7] [XXXO*]
+19-10-2016 01:26:51.244 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 11:7
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:51.244 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:52.953 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 10:8
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.953 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:52.954 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.955 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:52.956 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by main diagonal: [3:3, 4:4, 5:5, 6:6, 7:7]
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [3:3, 4:4, 5:5, 6:6, 7:7] [***OO]
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:5 for pattern [3:3, 4:4, 5:5, 6:6, 7:7] [**OOO]
+19-10-2016 01:26:52.956 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:5
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:52.956 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:52.957 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:52.957 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:52.957 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:54.968 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:8
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.969 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:54.970 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:54.971 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by main diagonal: [3:3, 4:4, 5:5, 6:6, 7:7]
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [3:3, 4:4, 5:5, 6:6, 7:7] [**OOO]
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 4:4 for pattern [3:3, 4:4, 5:5, 6:6, 7:7] [*OOOO]
+19-10-2016 01:26:54.971 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:4
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:54.971 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:59.128 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 3:3
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.129 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.130 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:26:59.131 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [5:3, 5:4, 5:5, 5:6, 5:7]
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [5:3, 5:4, 5:5, 5:6, 5:7] [**O*O]
+19-10-2016 01:26:59.131 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:6 for pattern [5:3, 5:4, 5:5, 5:6, 5:7] [**OOO]
+19-10-2016 01:26:59.132 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:6
+19-10-2016 01:26:59.132 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:26:59.132 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:26:59.132 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:26:59.132 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:26:59.132 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:27:01.608 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:9
+19-10-2016 01:27:01.608 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.609 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:27:01.610 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by row: [5:3, 5:4, 5:5, 5:6, 5:7]
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [5:3, 5:4, 5:5, 5:6, 5:7] [**OOO]
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:4 for pattern [5:3, 5:4, 5:5, 5:6, 5:7] [*OOOO]
+19-10-2016 01:27:01.610 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:4
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:27:01.610 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:27:01.611 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:27:01.611 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:27:02.800 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:10
+19-10-2016 01:27:02.800 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:27:02.800 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:27:02.800 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:27:02.800 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:27:02.801 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:27:02.801 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:27:02.801 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by row: [5:3, 5:4, 5:5, 5:6, 5:7]
+19-10-2016 01:27:02.801 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [5:3, 5:4, 5:5, 5:6, 5:7] [*OOOO]
+19-10-2016 01:27:02.801 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:3 for pattern [5:3, 5:4, 5:5, 5:6, 5:7] [OOOOO]
+19-10-2016 01:27:02.801 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:3
+19-10-2016 01:27:02.801 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:27:02.801 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is COMPUTER. By row: [5:3, 5:4, 5:5, 5:6, 5:7]
+19-10-2016 01:27:02.801 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [5:3, 5:4, 5:5, 5:6, 5:7]
+19-10-2016 01:27:06.611 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 01:27:08.945 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:27:48.439 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:27:48.447 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:27:50.256 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:27:50.261 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7]
+19-10-2016 01:27:50.267 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:27:50.800 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:7
+19-10-2016 01:27:50.803 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [2:7, 3:7, 4:7, 5:7, 6:7]
+19-10-2016 01:27:50.804 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:7
+19-10-2016 01:27:51.456 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 01:27:51.459 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [5:4, 5:5, 5:6, 5:7, 5:8]
+19-10-2016 01:27:51.459 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:6
+19-10-2016 01:27:52.136 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 01:27:52.138 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [2:6, 3:6, 4:6, 5:6, 6:6]
+19-10-2016 01:27:52.138 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:6
+19-10-2016 01:27:52.776 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:8
+19-10-2016 01:27:52.777 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [2:6, 3:6, 4:6, 5:6, 6:6]
+19-10-2016 01:27:52.778 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:6
+19-10-2016 01:27:53.400 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:8
+19-10-2016 01:27:53.401 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by col: [2:6, 3:6, 4:6, 5:6, 6:6]
+19-10-2016 01:27:53.401 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 2:6
+19-10-2016 01:27:53.401 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is COMPUTER. By col: [2:6, 3:6, 4:6, 5:6, 6:6]
+19-10-2016 01:27:53.401 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [2:6, 3:6, 4:6, 5:6, 6:6]
+19-10-2016 01:27:55.260 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 01:27:57.680 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:27:59.963 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:27:59.967 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:28:00.809 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:9
+19-10-2016 01:28:00.814 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:5, 6:6, 6:7, 6:8, 6:9]
+19-10-2016 01:28:00.814 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:8
+19-10-2016 01:28:01.257 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:9
+19-10-2016 01:28:01.259 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [2:9, 3:9, 4:9, 5:9, 6:9]
+19-10-2016 01:28:01.260 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:9
+19-10-2016 01:28:01.969 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 01:28:01.971 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [5:5, 5:6, 5:7, 5:8, 5:9]
+19-10-2016 01:28:01.971 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:7
+19-10-2016 01:28:02.825 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:8
+19-10-2016 01:28:02.827 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by main diagonal: [2:4, 3:5, 4:6, 5:7, 6:8]
+19-10-2016 01:28:02.827 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:6
+19-10-2016 01:28:03.465 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:10
+19-10-2016 01:28:03.466 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by main diagonal: [2:4, 3:5, 4:6, 5:7, 6:8]
+19-10-2016 01:28:03.466 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:5
+19-10-2016 01:28:04.377 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:10
+19-10-2016 01:28:04.377 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by main diagonal: [2:4, 3:5, 4:6, 5:7, 6:8]
+19-10-2016 01:28:04.377 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 2:4
+19-10-2016 01:28:04.378 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is COMPUTER. By main diagonal: [2:4, 3:5, 4:6, 5:7, 6:8]
+19-10-2016 01:28:04.378 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [2:4, 3:5, 4:6, 5:7, 6:8]
+19-10-2016 01:28:05.156 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 01:28:10.336 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:28:28.156 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:28:28.161 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:28:29.248 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:28:29.249 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:28:29.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:28:29.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:28:29.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:28:29.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:28:29.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:28:29.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:28:29.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:28:29.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:28:29.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:28:29.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:28:29.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:28:29.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:28:29.257 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7]
+19-10-2016 01:28:29.259 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 01:29:33.382 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:29:33.386 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:29:35.248 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:29:35.249 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 01:29:35.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 01:29:35.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 01:29:35.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 01:29:35.250 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:29:35.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.251 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 01:29:35.252 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.253 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 01:29:35.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.254 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 01:29:35.255 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:29:35.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:29:35.256 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:29:35.257 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:29:35.257 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 01:29:35.258 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7]
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 6:6 for pattern [6:3, 6:4, 6:5, 6:6, 6:7] [***OX]
+19-10-2016 01:29:35.259 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 01:29:35.259 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 01:29:51.824 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:30:20.166 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:30:20.169 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:30:22.233 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:6
+19-10-2016 01:30:22.238 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:5
+19-10-2016 01:30:22.665 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:6
+19-10-2016 01:30:22.667 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:6
+19-10-2016 01:30:23.169 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:7
+19-10-2016 01:30:23.171 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:5
+19-10-2016 01:30:23.625 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 01:30:23.626 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:9
+19-10-2016 01:30:25.136 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:8
+19-10-2016 01:30:25.138 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:9
+19-10-2016 01:30:25.784 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 01:30:25.786 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:8
+19-10-2016 01:30:26.392 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:9
+19-10-2016 01:30:26.394 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:7
+19-10-2016 01:30:27.272 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:7
+19-10-2016 01:30:27.274 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:8
+19-10-2016 01:30:27.976 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:9
+19-10-2016 01:30:27.978 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:10
+19-10-2016 01:30:29.200 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 3:10
+19-10-2016 01:30:29.202 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:6
+19-10-2016 01:30:29.984 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:10
+19-10-2016 01:30:29.985 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:5
+19-10-2016 01:30:30.736 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:10
+19-10-2016 01:30:30.737 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:7
+19-10-2016 01:30:30.737 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [3:5, 3:6, 3:7, 3:8, 3:9]
+19-10-2016 01:30:33.132 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 01:30:34.248 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:30:55.684 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:30:55.686 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:30:57.369 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 01:30:57.373 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7]
+19-10-2016 01:30:57.374 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 01:31:01.640 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 01:31:01.643 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [6:7, 6:8, 6:9, 6:10, 6:11]
+19-10-2016 01:31:01.643 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:9
+19-10-2016 01:31:08.128 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 01:31:08.130 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [2:8, 3:8, 4:8, 5:8, 6:8]
+19-10-2016 01:31:08.131 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:8
+19-10-2016 01:31:26.536 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 01:32:42.353 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 01:32:42.356 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 01:32:45.649 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 01:32:45.653 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [7:3, 7:4, 7:5, 7:6, 7:7] [****X]
+19-10-2016 01:32:45.654 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:6
+19-10-2016 01:32:52.320 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:9
+19-10-2016 01:32:52.322 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [7:7, 7:8, 7:9, 7:10, 7:11] [X*X**]
+19-10-2016 01:32:52.323 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:8
+19-10-2016 01:33:07.880 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:9
+19-10-2016 01:33:07.883 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [4:9, 5:9, 6:9, 7:9, 8:9] [***XX]
+19-10-2016 01:33:07.883 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:9
+19-10-2016 01:33:22.257 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:9
+19-10-2016 01:33:22.258 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [7:9, 8:9, 9:9, 10:9, 11:9] [XXX**]
+19-10-2016 01:33:22.258 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 10:9
+19-10-2016 01:33:25.304 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:10
+19-10-2016 01:33:25.306 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by main diagonal: [6:5, 7:6, 8:7, 9:8, 10:9] [*O**O]
+19-10-2016 01:33:25.306 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:7
+19-10-2016 01:33:31.800 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:8
+19-10-2016 01:33:31.801 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by not main diagonal: [4:11, 5:10, 6:9, 7:8, 8:7] [**OOO]
+19-10-2016 01:33:31.801 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:10
+19-10-2016 01:33:55.992 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 10:39:47.407 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:39:47.409 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:39:51.185 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 10:39:51.195 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 10:39:52.657 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 10:39:52.660 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:9
+19-10-2016 10:39:53.857 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:7
+19-10-2016 10:39:53.859 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:7
+19-10-2016 10:39:54.537 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 10:39:54.538 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:7
+19-10-2016 10:39:55.089 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:8
+19-10-2016 10:39:55.091 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:6
+19-10-2016 10:39:55.929 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 10:39:55.930 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:8
+19-10-2016 10:39:56.961 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:9
+19-10-2016 10:39:56.962 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:6
+19-10-2016 10:39:57.705 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 4:9
+19-10-2016 10:39:57.706 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:6
+19-10-2016 10:39:59.025 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 3:10
+19-10-2016 10:39:59.025 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 2:6
+19-10-2016 10:39:59.025 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [2:6, 3:6, 4:6, 5:6, 6:6]
+19-10-2016 10:40:01.937 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer first turn is 7:7
+19-10-2016 10:40:01.938 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:40:01.938 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15 COMPUTER made the first turn
+19-10-2016 10:40:03.288 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 10:40:22.171 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:40:22.173 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:40:29.513 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 10:40:29.518 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 10:40:29.518 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 10:40:34.481 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 10:40:34.483 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [3:7, 4:7, 5:7, 6:7, 7:7] [***XX]
+19-10-2016 10:40:34.483 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:7
+19-10-2016 10:40:36.089 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:7
+19-10-2016 10:40:36.090 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [6:7, 7:7, 8:7, 9:7, 10:7] [XXX**]
+19-10-2016 10:40:36.090 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 9:7
+19-10-2016 10:40:37.200 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:8
+19-10-2016 10:40:37.202 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by not main diagonal: [2:10, 3:9, 4:8, 5:7, 6:6] [***OO]
+19-10-2016 10:40:37.203 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:8
+19-10-2016 10:40:40.272 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:5
+19-10-2016 10:40:40.274 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by not main diagonal: [2:10, 3:9, 4:8, 5:7, 6:6] [**OOO]
+19-10-2016 10:40:40.274 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:9
+19-10-2016 10:40:42.769 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 2:10
+19-10-2016 10:40:42.771 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by row: [7:3, 7:4, 7:5, 7:6, 7:7] [**X*X]
+19-10-2016 10:40:42.772 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:4
+19-10-2016 10:40:44.513 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:6
+19-10-2016 10:40:44.515 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by row: [7:5, 7:6, 7:7, 7:8, 7:9] [XXX**]
+19-10-2016 10:40:44.515 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 7:8
+19-10-2016 10:40:46.249 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:5
+19-10-2016 10:40:46.250 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by row: [8:4, 8:5, 8:6, 8:7, 8:8] [*X*XX]
+19-10-2016 10:40:46.250 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 8:4
+19-10-2016 10:40:50.097 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:8
+19-10-2016 10:40:50.098 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by not main diagonal: [4:9, 5:8, 6:7, 7:6, 8:5] [*XXXX]
+19-10-2016 10:40:50.098 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:9
+19-10-2016 10:40:51.729 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:4
+19-10-2016 10:40:51.729 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is HUMAN. By not main diagonals: [5:8, 6:7, 7:6, 8:5, 9:4]
+19-10-2016 10:40:51.729 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Human wins: [5:8, 6:7, 7:6, 8:5, 9:4]
+19-10-2016 10:40:55.973 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 10:40:57.424 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 10:41:05.671 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:41:05.674 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:41:08.705 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 10:41:08.706 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 10:41:08.706 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 10:41:08.706 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 10:41:08.706 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 10:41:08.706 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 10:41:08.707 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.707 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.707 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.708 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.708 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.708 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.708 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.708 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:41:08.709 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.709 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.709 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.709 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.709 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.710 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.710 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.710 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:41:08.710 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.710 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.711 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.711 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.711 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.711 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.711 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.711 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:41:08.712 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:41:08.712 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:41:08.712 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:41:08.712 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:41:08.712 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:41:08.713 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 10:41:08.713 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 10:41:08.713 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 6:6 for pattern [6:3, 6:4, 6:5, 6:6, 6:7] [***OX]
+19-10-2016 10:41:08.713 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 10:41:08.713 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 10:41:08.714 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 10:41:08.714 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 10:41:08.714 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 10:41:08.714 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 10:41:24.497 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 10:54:16.617 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:54:16.620 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:54:23.242 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 10:54:23.247 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 10:54:29.801 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:0
+19-10-2016 10:54:29.804 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:5
+19-10-2016 10:54:33.553 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 14:14
+19-10-2016 10:54:33.555 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:4
+19-10-2016 10:54:40.040 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 1:0
+19-10-2016 10:54:40.042 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:3
+19-10-2016 10:54:43.297 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:2
+19-10-2016 10:54:43.299 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 2:0
+19-10-2016 10:54:44.753 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:2
+19-10-2016 10:54:44.755 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:1
+19-10-2016 10:54:45.585 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 5:2
+19-10-2016 10:54:45.586 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:2
+19-10-2016 10:54:46.553 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:2
+19-10-2016 10:54:46.554 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:3
+19-10-2016 10:54:46.554 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [2:0, 3:1, 4:2, 5:3, 6:4]
+19-10-2016 10:55:04.376 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 10:55:05.985 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 10:55:42.568 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:55:42.571 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:55:44.569 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 10:55:44.574 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 10:55:44.575 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 10:56:44.137 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 10:56:44.140 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [3:7, 4:7, 5:7, 6:7, 7:7] [***XX]
+19-10-2016 10:56:44.141 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:7
+19-10-2016 10:57:00.057 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:7
+19-10-2016 10:57:00.059 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [6:7, 7:7, 8:7, 9:7, 10:7] [XXX**]
+19-10-2016 10:57:00.059 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 9:7
+19-10-2016 10:57:16.664 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 10:57:28.334 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:57:28.337 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:57:30.681 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 10:57:30.682 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 10:57:30.682 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 10:57:30.682 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 10:57:30.682 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 10:57:30.682 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 10:57:30.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.683 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.684 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells
+19-10-2016 10:57:30.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.685 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells
+19-10-2016 10:57:30.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.686 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.687 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells
+19-10-2016 10:57:30.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:57:30.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:57:30.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:57:30.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:57:30.688 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells
+19-10-2016 10:57:30.689 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:4, 6:5, 6:6, 6:7, 6:8] [****X]
+19-10-2016 10:57:30.689 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:4, 6:5, 6:6, 6:7, 6:8] [****X]
+19-10-2016 10:57:30.689 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 6:7 for pattern [6:4, 6:5, 6:6, 6:7, 6:8] [***OX]
+19-10-2016 10:57:30.689 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:7
+19-10-2016 10:57:30.690 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 10:57:30.690 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 10:57:30.690 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 10:57:30.690 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 10:57:30.690 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 10:59:05.106 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 10:59:05.109 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 10:59:07.417 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 10:59:07.418 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 10:59:07.419 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 10:59:07.419 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 10:59:07.419 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 10:59:07.419 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 10:59:07.420 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 10:59:07.420 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 10:59:07.420 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 10:59:07.420 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 10:59:07.420 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 10:59:07.421 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 10:59:07.421 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 10:59:07.421 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 10:59:07.421 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 10:59:07.422 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 10:59:07.422 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 10:59:07.422 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 10:59:07.422 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 10:59:07.422 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 10:59:07.423 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 10:59:07.423 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 10:59:07.423 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 10:59:07.423 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 10:59:07.423 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 10:59:07.423 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 10:59:07.424 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells for HUMAN
+19-10-2016 10:59:07.424 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells for HUMAN
+19-10-2016 10:59:07.424 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells for HUMAN
+19-10-2016 10:59:07.424 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells for HUMAN
+19-10-2016 10:59:07.424 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells for COMPUTER
+19-10-2016 10:59:07.425 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 4 empty and 1 not empty cells for COMPUTER
+19-10-2016 10:59:07.425 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 4 empty and 1 not empty cells for COMPUTER
+19-10-2016 10:59:07.425 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 4 empty and 1 not empty cells for COMPUTER
+19-10-2016 10:59:07.425 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 4 empty and 1 not empty cells for HUMAN
+19-10-2016 10:59:07.426 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 6:6 for pattern [6:3, 6:4, 6:5, 6:6, 6:7] [***OX]
+19-10-2016 10:59:07.426 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 10:59:07.426 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:15.497 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:7
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:15.498 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:15.499 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:15.499 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:15.499 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:15.499 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:15.499 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:15.499 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:15.500 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:15.500 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:15.500 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:15.500 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:15.500 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:15.500 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:15.501 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:15.501 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:15.501 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:15.501 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:15.501 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:15.502 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells for HUMAN
+19-10-2016 11:00:15.502 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells for HUMAN
+19-10-2016 11:00:15.502 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by col: [3:7, 4:7, 5:7, 6:7, 7:7] [***XX]
+19-10-2016 11:00:15.502 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [3:7, 4:7, 5:7, 6:7, 7:7] [***XX]
+19-10-2016 11:00:15.502 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 5:7 for pattern [3:7, 4:7, 5:7, 6:7, 7:7] [**OXX]
+19-10-2016 11:00:15.502 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:7
+19-10-2016 11:00:15.503 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 11:00:15.503 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 11:00:15.503 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 11:00:15.503 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 11:00:15.503 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:17.161 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:7
+19-10-2016 11:00:17.161 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:17.162 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:17.163 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:17.163 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:17.163 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:17.163 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:17.163 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:17.163 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:17.164 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by col: [6:7, 7:7, 8:7, 9:7, 10:7] [XXX**]
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [6:7, 7:7, 8:7, 9:7, 10:7] [XXX**]
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 9:7 for pattern [6:7, 7:7, 8:7, 9:7, 10:7] [XXXO*]
+19-10-2016 11:00:17.164 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 9:7
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 11:00:17.164 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 11:00:17.165 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 11:00:17.165 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 11:00:17.165 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:18.081 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:8
+19-10-2016 11:00:18.081 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:18.082 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:18.083 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:18.083 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:18.083 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:18.083 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:18.083 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for HUMAN
+19-10-2016 11:00:18.084 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 3 empty and 2 not empty cells for COMPUTER
+19-10-2016 11:00:18.085 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 3 empty and 2 not empty cells by not main diagonal: [2:10, 3:9, 4:8, 5:7, 6:6] [***OO]
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [2:10, 3:9, 4:8, 5:7, 6:6] [***OO]
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 4:8 for pattern [2:10, 3:9, 4:8, 5:7, 6:6] [**OOO]
+19-10-2016 11:00:18.085 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:8
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 11:00:18.085 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 11:00:18.086 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:19.097 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:8
+19-10-2016 11:00:19.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 11:00:19.097 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:19.098 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for HUMAN
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:19.099 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 2 empty and 3 not empty cells for COMPUTER
+19-10-2016 11:00:19.099 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 2 empty and 3 not empty cells by not main diagonal: [2:10, 3:9, 4:8, 5:7, 6:6] [**OOO]
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [2:10, 3:9, 4:8, 5:7, 6:6] [**OOO]
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 3:9 for pattern [2:10, 3:9, 4:8, 5:7, 6:6] [*OOOO]
+19-10-2016 11:00:19.100 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:9
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 11:00:19.100 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:20.961 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 9:9
+19-10-2016 11:00:20.961 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is HUMAN winner?
+19-10-2016 11:00:20.961 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is HUMAN winner?
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is HUMAN winner?
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is HUMAN winner?
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultWinnerChecker - Winner not found
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by row for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by col for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to make turn by not main diagonal for pattern: 1 empty and 4 not empty cells for COMPUTER
+19-10-2016 11:00:20.962 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 1 empty and 4 not empty cells by not main diagonal: [2:10, 3:9, 4:8, 5:7, 6:6] [*OOOO]
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultComputerTurn - Try to find the best turn by pattern [2:10, 3:9, 4:8, 5:7, 6:6] [*OOOO]
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultComputerTurn - The best cell is 2:10 for pattern [2:10, 3:9, 4:8, 5:7, 6:6] [OOOOO]
+19-10-2016 11:00:20.962 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 2:10
+19-10-2016 11:00:20.962 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by row: is COMPUTER winner?
+19-10-2016 11:00:20.963 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by col: is COMPUTER winner?
+19-10-2016 11:00:20.963 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by main diagonal: is COMPUTER winner?
+19-10-2016 11:00:20.963 TRACE n.d.j.l.impl.DefaultWinnerChecker - Try to find winner by not main diagonal: is COMPUTER winner?
+19-10-2016 11:00:20.963 DEBUG n.d.j.l.impl.DefaultWinnerChecker - Winner is COMPUTER. By not main diagonals: [2:10, 3:9, 4:8, 5:7, 6:6]
+19-10-2016 11:00:20.963 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [2:10, 3:9, 4:8, 5:7, 6:6]
+19-10-2016 11:00:22.993 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer first turn is 7:7
+19-10-2016 11:00:22.994 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 11:00:22.994 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15 COMPUTER made the first turn
+19-10-2016 11:00:24.313 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 11:01:49.174 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 11:01:49.177 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 11:01:50.873 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:7
+19-10-2016 11:01:50.878 DEBUG n.d.j.l.impl.DefaultComputerTurn - Found 4 empty and 1 not empty cells by row: [6:3, 6:4, 6:5, 6:6, 6:7] [****X]
+19-10-2016 11:01:50.879 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:6
+19-10-2016 11:02:07.873 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 11:02:13.773 INFO  n.d.jse.lection06_gomoku.GUIGomoku - ------------------------------------------------------
+19-10-2016 11:02:13.778 INFO  n.d.jse.lection06_gomoku.GUIGomoku - New game started with game table 15x15
+19-10-2016 11:02:14.641 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 6:8
+19-10-2016 11:02:14.646 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 6:7
+19-10-2016 11:02:16.249 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 7:8
+19-10-2016 11:02:16.252 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 5:8
+19-10-2016 11:02:17.865 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:8
+19-10-2016 11:02:17.867 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 9:8
+19-10-2016 11:02:18.345 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:9
+19-10-2016 11:02:18.347 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 4:9
+19-10-2016 11:02:18.969 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:10
+19-10-2016 11:02:18.971 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 3:10
+19-10-2016 11:02:19.505 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 8:11
+19-10-2016 11:02:19.506 INFO  n.d.j.l.impl.DefaultComputerTurn - Computer turn is 2:11
+19-10-2016 11:02:19.506 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Computer wins: [2:11, 3:10, 4:9, 5:8, 6:7]
+19-10-2016 11:02:21.023 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game disabled with game table 15x15
+19-10-2016 11:02:21.921 INFO  n.d.jse.lection06_gomoku.GUIGomoku - Game stopped with game table 15x15
+19-10-2016 11:59:27.627 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:1
+19-10-2016 12:01:15.029 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:1
+19-10-2016 12:03:56.565 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:1
+19-10-2016 12:04:30.871 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:1
+19-10-2016 12:04:40.499 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:1
+19-10-2016 12:05:00.376 INFO  n.d.j.l.impl.DefaultHumanTurn - Human turn is 0:1
