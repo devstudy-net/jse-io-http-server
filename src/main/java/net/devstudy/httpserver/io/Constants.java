@@ -10,6 +10,8 @@ import java.util.List;
  * @see http://devstudy.net
  */
 public final class Constants {
+	
+	public static final String HTTP_VERSION = "HTTP/1.1";
 
 	public static final String GET = "GET";
 	
