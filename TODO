@@ -2,3 +2,11 @@ DefaultHttpServerConfig, DefaultHttpServerContext,
 DefaultThreadFactory, DefaultHttpClientSocketHandler, DefaultHttpServer,
 HttpServerFactory
 HelloWorldHandler
+-----------------------------------------------------------------------------------
+"Content-Type"
+"Last-Modified"
+"Expires"
+
+404
+
+If directory: list of files

@@ -11,7 +11,7 @@ import net.devstudy.httpserver.io.ServerInfo;
  * @author devstudy
  * @see http://devstudy.net
  */
-public interface HttpServerConfig {
+public interface HttpServerConfig extends AutoCloseable{
 
 	ServerInfo getServerInfo();
 	

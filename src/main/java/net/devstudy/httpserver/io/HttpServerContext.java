@@ -27,5 +27,5 @@ public interface HttpServerContext {
 	
 	HtmlTemplateManager getHtmlTemplateManager();
 	
-	Integer getExpriresDaysForResource(String extension);
+	Integer getExpiresDaysForResource(String extension);
 }
