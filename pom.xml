@@ -3,12 +3,27 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.devstudy</groupId>
-	<artifactId>gomoku</artifactId>
+	<artifactId>httpserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>gomoku</name>
-	<url>http://maven.apache.org</url>
+	<name>httpserver</name>
+	<description>Multithread simple HTTP server which uses blocking io. 
+		This project is project for &lt;/&gt;DevStudy.net course: http://devstudy.net/course/jse-io-http-server</description>
+	<url>http://devstudy.net/course/jse-io-http-server</url>
+	<organization>
+		<name>&lt;/&gt;DevStudy.net</name>
+		<url>http://devstudy.net</url>
+	</organization>
+	<developers>
+		<developer>
+			<name>devstudy</name>
+			<email>devstudy.net@gmail.com</email>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -46,7 +61,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>net.devstudy.gomoku.GUIGomoku</mainClass>
+							<mainClass>net.devstudy.httpserver.CLI</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -82,6 +97,16 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.1.7</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
