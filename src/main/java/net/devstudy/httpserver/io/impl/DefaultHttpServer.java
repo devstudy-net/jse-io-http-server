@@ -27,7 +27,7 @@ class DefaultHttpServer implements HttpServer {
 	private final Thread mainServerThread;
 	private volatile boolean serverStopped;
 
-	protected DefaultHttpServer(HttpServerConfig httpServerConfig) {
+	DefaultHttpServer(HttpServerConfig httpServerConfig) {
 		super();
 		this.httpServerConfig = httpServerConfig;
 		this.executorService = createExecutorService();

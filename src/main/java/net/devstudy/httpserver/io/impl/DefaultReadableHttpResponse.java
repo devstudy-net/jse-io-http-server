@@ -27,7 +27,7 @@ class DefaultReadableHttpResponse implements ReadableHttpResponse {
 	private byte[] body;
 	private int status;
 	
-	protected DefaultReadableHttpResponse() {
+	DefaultReadableHttpResponse() {
 		this.status = 200;
 		this.headers = new LinkedHashMap<>();
 		this.body = new byte[0];
