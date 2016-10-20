@@ -2,6 +2,7 @@ package net.devstudy.httpserver.io.impl;
 
 import java.util.Properties;
 
+import net.devstudy.httpserver.io.HandlerConfig;
 import net.devstudy.httpserver.io.HttpServer;
 import net.devstudy.httpserver.io.config.HttpServerConfig;
 
@@ -19,8 +20,8 @@ public class HttpServerFactory {
 		return new HttpServerFactory();
 	}
 	
-	public HttpServer createHttpServer(Properties overrideServerProperties) {
-		HttpServerConfig httpServerConfig = new DefaultHttpServerConfig(overrideServerProperties);
+	public HttpServer createHttpServer(HandlerConfig handlerConfig, Properties overrideServerProperties) {
+		HttpServerConfig httpServerConfig = new DefaultHttpServerConfig(handlerConfig, overrideServerProperties);
 		return new DefaultHttpServer(httpServerConfig);
 	}
 }

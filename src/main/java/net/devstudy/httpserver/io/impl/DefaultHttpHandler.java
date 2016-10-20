@@ -9,21 +9,23 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Date;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FilenameUtils;
 
+import net.devstudy.httpserver.io.HttpHandler;
 import net.devstudy.httpserver.io.HttpRequest;
 import net.devstudy.httpserver.io.HttpResponse;
 import net.devstudy.httpserver.io.HttpServerContext;
-import net.devstudy.httpserver.io.config.HttpRequestDispatcher;
+import net.devstudy.httpserver.io.utils.DataUtils;
 
 /**
  * 
  * @author devstudy
  * @see http://devstudy.net
  */
-class DefaultHttpHandler implements HttpRequestDispatcher {
+class DefaultHttpHandler implements HttpHandler {
 	
 	@Override
 	public void handle(HttpServerContext context, HttpRequest request, HttpResponse response) throws IOException {
@@ -37,7 +39,6 @@ class DefaultHttpHandler implements HttpRequestDispatcher {
 			}
 		} else {
 			response.setStatus(404);
-			response.setBody("<h1>Not Found</h1>");
 		}
 	}
 	
@@ -71,7 +72,12 @@ class DefaultHttpHandler implements HttpRequestDispatcher {
 				htmlBody.append("<a href=\"").append(getHref(root, path)).append("\">").append(path.getFileName()).append("</a><br>\r\n");
 			}
 		}
-		return htmlBody.toString();
+		Map<String, Object> args = DataUtils.buildMap(new Object[][] { 
+			{ "TITLE",   "File list for " + dir.getFileName() }, 
+			{ "HEADER", "File list for " + dir.getFileName() },
+			{ "BODY", 	 htmlBody } 
+		});
+		return context.getHtmlTemplateManager().processTemplate("simple.html", args);
 	}
 
 	private String getHref(String root, Path path) {

@@ -20,6 +20,8 @@
 		</encoder>
 	</appender>
 	
+	<logger name="net.devstudy.httpserver.io.impl.DefaultHttpClientSocketHandler" level="error" />
+ 	
 	<root level="trace">
 		<appender-ref ref="STDOUT" />
 		<!--appender-ref ref="ROLLING" /-->
