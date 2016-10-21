@@ -26,6 +26,7 @@ class DefaultHttpServer implements HttpServer {
 	private final ExecutorService executorService;
 	private final Thread mainServerThread;
 	private volatile boolean serverStopped;
+	private volatile boolean stopRequest;
 
 	DefaultHttpServer(HttpServerConfig httpServerConfig) {
 		super();
@@ -79,7 +80,9 @@ class DefaultHttpServer implements HttpServer {
 						break;
 					}
 				}
-				System.exit(0);
+				if(stopRequest){
+					System.exit(0);
+				}
 			}
 		};
 	}
@@ -97,6 +100,7 @@ class DefaultHttpServer implements HttpServer {
 	@Override
 	public void stop() {
 		LOGGER.info("Detected stop cmd");
+		stopRequest = true;
 		mainServerThread.interrupt();
 		try {
 			serverSocket.close();

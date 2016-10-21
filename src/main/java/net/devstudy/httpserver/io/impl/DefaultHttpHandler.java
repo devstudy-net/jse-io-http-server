@@ -81,6 +81,6 @@ class DefaultHttpHandler implements HttpHandler {
 	}
 
 	private String getHref(String root, Path path) {
-		return path.toString().replace(root, "");
+		return path.toString().replace(root, "").replace("\\", "/");
 	}
 }

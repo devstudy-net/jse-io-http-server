@@ -61,7 +61,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>net.devstudy.httpserver.CLI</mainClass>
+							<mainClass>net.devstudy.httpserver.io.CLI</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
