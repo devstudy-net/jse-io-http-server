@@ -98,19 +98,11 @@ public final class HttpUtils {
 		}
 
 		private byte[] toArray() {
-			if(size > 4) {
-				return Arrays.copyOf(array, size - 4);
-			} else {
-				throw new IllegalStateException("Byte array has invalid size: "+Arrays.toString(Arrays.copyOf(array, size)));
-			}
+			return Arrays.copyOf(array, size - 4);
 		}
 
 		private boolean isEmptyLine() {
-			if (size >= 4) {
-				return array[size - 1] == '\n' && array[size - 2] == '\r' && array[size - 3] == '\n' && array[size - 4] == '\r';
-			} else {
-				return false;
-			}
+			return array[size - 1] == '\n' && array[size - 2] == '\r' && array[size - 3] == '\n' && array[size - 4] == '\r';
 		}
 	}
 

@@ -7,13 +7,14 @@ import static org.mockito.Mockito.when;
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.StringReader;
+import java.nio.charset.StandardCharsets;
 
+import org.apache.commons.io.input.ReaderInputStream;
 import org.hamcrest.core.IsEqual;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-
-import net.devstudy.httpserver.io.utils.HttpUtils;
 
 /**
  * 
@@ -54,5 +55,24 @@ public class HttpUtilsTest {
 		when(in.read()).thenReturn(-1);
 		
 		HttpUtils.readStartingLineAndHeaders(in);
+	}
+	
+	@Test
+	public void testReadStartingLineAndHeadersLargeRequest() throws IOException{
+		StringBuilder largeRequest = new StringBuilder("GET /index.html HTTP/1.1\r\n");
+		for(int i=0;i<1000;i++) {
+			largeRequest.append("Header"+i+": value"+i+"\r\n");
+		}
+		largeRequest.append("\r\n");
+		
+		String startingLineAndHeaders = HttpUtils.readStartingLineAndHeaders(new ReaderInputStream(new StringReader(largeRequest.toString()), StandardCharsets.UTF_8));
+		// -4 because HttpUtils.ByteArray.toArray() extract 4 bytes for last empty line
+		assertEquals(largeRequest.length() - 4, startingLineAndHeaders.length());
+	}
+	
+	@Test
+	public void testGetContentLengthValue() throws IOException{
+		int result = HttpUtils.getContentLengthValue("content-length: 12", 0);
+		assertEquals(12, result);
 	}
 }

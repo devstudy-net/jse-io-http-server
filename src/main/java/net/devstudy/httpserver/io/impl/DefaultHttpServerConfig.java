@@ -124,6 +124,9 @@ class DefaultHttpServerConfig implements HttpServerConfig {
 		if (si.getThreadCount() < 0) {
 			throw new HttpServerConfigException("server.thread.count should be >= 0");
 		}
+		if (si.getPort() < 0 || si.getPort() > 65535) {
+			throw new HttpServerConfigException("server.port should be between 0 and 65535");
+		}
 		return si;
 	}
 

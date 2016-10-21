@@ -5,6 +5,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
@@ -21,12 +22,16 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import org.hamcrest.core.IsEqual;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import net.devstudy.httpserver.io.ServerInfo;
 import net.devstudy.httpserver.io.config.HttpClientSocketHandler;
 import net.devstudy.httpserver.io.config.HttpServerConfig;
+import net.devstudy.httpserver.io.exception.HttpServerException;
 
 /**
  *
@@ -41,6 +46,9 @@ public class DefaultHttpServerTest {
 	private ServerSocket serverSocket;
 	private ExecutorService executorService;
 	private Thread mainServerThread;
+	
+	@Rule
+	public ExpectedException thrown = ExpectedException.none();
 	
 	@Before
 	public void before(){
@@ -209,5 +217,149 @@ public class DefaultHttpServerTest {
 		assertEquals(0, executorService.getKeepAliveTime(TimeUnit.SECONDS));
 		assertSame(threadFactory, executorService.getThreadFactory());
 		assertTrue(executorService.getQueue() instanceof LinkedBlockingQueue);
+	}
+	
+	@Test
+	public void testStartSuccess(){
+		when(mainServerThread.getState()).thenReturn(Thread.State.NEW);
+		server = new DefaultHttpServer(httpServerConfig){
+			@Override
+			protected ExecutorService createExecutorService() {
+				return executorService;
+			}
+			@Override
+			protected Thread createMainServerThread(Runnable r) {
+				return mainServerThread;
+			}
+			@Override
+			protected ServerSocket createServerSocket() {
+				return serverSocket;
+			}
+			@Override
+			protected Thread getShutdownHook() {
+				return new Thread();
+			}
+			@Override
+			protected Runnable createServerRunnable() {
+				return mock(Runnable.class);
+			}
+		};
+		server.start();
+		
+		verify(mainServerThread).start();
+		verify(mainServerThread).getState();
+	}
+	
+	@Test
+	public void testStartFailed(){
+		thrown.expect(HttpServerException.class);
+		thrown.expectMessage(new IsEqual<String>("Current web server already started or stopped! Please create a new http server instance"));
+		
+		when(mainServerThread.getState()).thenReturn(Thread.State.TERMINATED);
+		server = new DefaultHttpServer(httpServerConfig){
+			@Override
+			protected ExecutorService createExecutorService() {
+				return executorService;
+			}
+			@Override
+			protected Thread createMainServerThread(Runnable r) {
+				return mainServerThread;
+			}
+			@Override
+			protected ServerSocket createServerSocket() {
+				return serverSocket;
+			}
+		};
+		server.start();
+	}
+	
+	@Test
+	public void testStopSuccess() throws IOException{
+		server = new DefaultHttpServer(httpServerConfig){
+			@Override
+			protected ExecutorService createExecutorService() {
+				return executorService;
+			}
+			@Override
+			protected Thread createMainServerThread(Runnable r) {
+				return mainServerThread;
+			}
+			@Override
+			protected ServerSocket createServerSocket() {
+				return serverSocket;
+			}
+		};
+		server.stop();
+		
+		verify(mainServerThread).interrupt();
+		verify(serverSocket).close();
+	}
+	
+	@Test
+	public void testStopWithIOException() throws IOException{
+		doThrow(new IOException("Close")).when(serverSocket).close();
+		server = new DefaultHttpServer(httpServerConfig){
+			@Override
+			protected ExecutorService createExecutorService() {
+				return executorService;
+			}
+			@Override
+			protected Thread createMainServerThread(Runnable r) {
+				return mainServerThread;
+			}
+			@Override
+			protected ServerSocket createServerSocket() {
+				return serverSocket;
+			}
+		};
+		server.stop();
+		
+		verify(mainServerThread).interrupt();
+		verify(serverSocket).close();
+	}
+	
+	@Test
+	public void testDestroyServerWithException() throws Exception{
+		doThrow(new Exception("Close")).when(httpServerConfig).close();
+		server = new DefaultHttpServer(httpServerConfig){
+			@Override
+			protected ExecutorService createExecutorService() {
+				return executorService;
+			}
+			@Override
+			protected Thread createMainServerThread(Runnable r) {
+				return mainServerThread;
+			}
+			@Override
+			protected ServerSocket createServerSocket() {
+				return serverSocket;
+			}
+		};
+		server.destroyHttpServer();
+		
+		verify(httpServerConfig).close();
+		verify(executorService).shutdownNow();
+	}
+	
+	@Test
+	public void testShutdownHook() throws Exception{
+		server = new DefaultHttpServer(httpServerConfig){
+			@Override
+			protected ExecutorService createExecutorService() {
+				return executorService;
+			}
+			@Override
+			protected Thread createMainServerThread(Runnable r) {
+				return mainServerThread;
+			}
+			@Override
+			protected ServerSocket createServerSocket() {
+				return serverSocket;
+			}
+		};
+		server.getShutdownHook().run();
+		
+		verify(httpServerConfig).close();
+		verify(executorService).shutdownNow();
 	}
 }
